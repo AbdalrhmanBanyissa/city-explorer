@@ -68,3 +68,31 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# city-explorer
+
+**Author**: Abdalrhman Banyissa <br> **Version**: 1.0.0
+
+## Overview
+
+## Getting Started
+
+## Architecture
+
+![Architecture](./axiosWireFram.png)
+
+## Change Log
+
+## Credit and Collaborations
+
+# Time Estimates
+
+Name of feature: Lab 06
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 2pm
+
+Finish time: 5pm
+
+Actual time needed to complete: 3 hours

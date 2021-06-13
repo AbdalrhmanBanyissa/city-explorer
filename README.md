@@ -87,7 +87,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # Time Estimates
 
-Name of feature: Lab 06
+Name of feature: Lab 06 Asynchronous code, and APIs
 
 Estimate of time needed to complete: 2 hours
 

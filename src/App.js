@@ -6,8 +6,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       locationData: "",
-      weatherDataDetails: "",
-      weatherData: "",
+      weatherData: {},
       errorMessage: "",
       displayErrorMessage: false,
       displayMap: false,
@@ -23,12 +22,11 @@ class App extends React.Component {
         `https://eu1.locationiq.com/v1/search.php?key=pk.acee6642223badb53b46f2eafaac6fd5&q=${searchQuery}&format=json`
       );
       let weatherAxios = await axios.get(
-        `${process.env.REACT_APP_URL}/weather`
+        `${process.env.REACT_APP_URL}/weather?cityName=${searchQuery}`
       );
       this.setState({
         displayErrorMessage: false,
-        weatherDataDetails:weatherAxios.data,
-        weatherData: weatherAxios.data.data,
+        weatherData: weatherAxios.data,
         locationData: locationAxios.data[0],
         displayMap: true,
       });
@@ -39,7 +37,7 @@ class App extends React.Component {
         errorMessage: "ERROR! This is bad respons",
       });
     }
-    console.log(this.state.weatherData);
+    
   };
 
   render() {
@@ -61,10 +59,7 @@ class App extends React.Component {
           />
         )}
         <h1>Weather Data</h1>
-        <p>City Name: {this.state.weatherDataDetails.city_name}</p>
-        <p>City Code: {this.state.weatherDataDetails.country_code}</p>
-        <p>Weather information: {JSON.stringify(this.state.weatherData[0])}</p>
-
+        <p>{JSON.stringify(this.state.weatherData[0])}</p>
         {this.state.displayErrorMessage && this.state.errorMessage}
       </div>
     );

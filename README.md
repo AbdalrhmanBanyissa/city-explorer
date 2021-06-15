@@ -87,15 +87,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # Time Estimates
 
-Name of feature: Lab 06 Asynchronous code, and APIs
+Name of feature: Lab 07 Custom Servers with Node and Express
 
-Estimate of time needed to complete: 2 hours
+Estimate of time needed to complete: 4 hours
 
-Start time: 2pm
+Start time: 12am
 
-Finish time: 5pm
+Finish time: 4am
 
-Actual time needed to complete: 3 hours
+Actual time needed to complete: 4 hours
 
 # Netlify
 

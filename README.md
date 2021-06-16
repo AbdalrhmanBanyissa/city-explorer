@@ -85,18 +85,35 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Credit and Collaborations
 
-# Time Estimates
-
-Name of feature: Lab 07 Custom Servers with Node and Express
-
-Estimate of time needed to complete: 4 hours
-
-Start time: 12am
-
-Finish time: 4am
-
-Actual time needed to complete: 4 hours
-
 # Netlify
 
 [city-explorer-link](https://eloquent-gates-105223.netlify.app/)
+
+# Project Name city-explorer
+
+**Author**: Abdalrhman Banyissa
+**Version**: 1.0.0
+
+## Overview
+
+A basic app to provide weather data information for three cities
+
+## Getting Started
+
+## Architecture
+
+## Change Log
+
+## Credit and Collaborations
+
+## Time Estimates
+
+Name of feature: lab 07
+
+Estimate of time needed to complete: ---
+
+Start time: tuesday
+
+Finish time: wednesday
+
+Actual time needed to complete:  1 day

@@ -67,7 +67,7 @@ class Main extends React.Component {
 
     try {
       let moviesAxios = await axios.get(
-        `${process.env.REACT_APP_MOVIES_URL}/movie?searchQuery=${searchQuery}`
+        `${process.env.REACT_APP_MOVIES_URL}/movie?query=${searchQuery}`
       );
       this.setState({
         displayErrorMessage: false,

@@ -108,12 +108,12 @@ A basic app to provide weather data information for three cities
 
 ## Time Estimates
 
-Name of feature: lab 07
+Name of feature: lab 10
 
-Estimate of time needed to complete: ---
+Estimate of time needed to complete: 2 hours
 
-Start time: tuesday
+Start time: 1 pm
 
-Finish time: wednesday
+Finish time: 2 pm
 
-Actual time needed to complete:  1 day
+Actual time needed to complete:  1 hour

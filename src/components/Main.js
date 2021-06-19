@@ -22,7 +22,7 @@ class Main extends React.Component {
 
     try {
       let locationAxios = await axios.get(
-        `https://eu1.locationiq.com/v1/search.php?key=pk.acee6642223badb53b46f2eafaac6fd5&q=${searchQuery}&format=json`
+        `https://eu1.locationiq.com/v1/search.php?key=${process.env.REACT_APP_LOCATIONS_KEY}&q=${searchQuery}&format=json`
       );
 
       this.setState({
@@ -45,7 +45,7 @@ class Main extends React.Component {
 
     try {
       let weatherAxios = await axios.get(
-        `${process.env.REACT_APP_WEATHER_URL}/weather?searchQuery=${searchQuery}`
+        `${process.env.REACT_APP_SERVER}/weather?searchQuery=${searchQuery}`
       );
       this.setState({
         displayErrorMessage: false,
@@ -67,7 +67,7 @@ class Main extends React.Component {
 
     try {
       let moviesAxios = await axios.get(
-        `${process.env.REACT_APP_MOVIES_URL}/movie?query=${searchQuery}`
+        `${process.env.REACT_APP_SERVER}/movie?query=${searchQuery}`
       );
       this.setState({
         displayErrorMessage: false,
